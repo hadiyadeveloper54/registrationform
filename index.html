@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+<style>
+body {
+    font-family: sans-serif, arial;
+    background-color: rgb(221, 211, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.top-box {
+    background-color: rgb(51, 93, 128);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: -22px;
+    height: 50px;
+}
+
+h1 {
+    padding-top: 6px;
+    padding-left: 20px;
+    color: white;
+}
+
+span {
+    color: rgb(60, 204, 240);
+}
+
+
+.top-p {
+    margin-left: 380px;
+    margin-top: 12px;
+}
+
+.images img {
+    height: 40px;
+    width: 40px;
+    margin: -80px;
+    margin-left: -60px;
+    padding-left: 170px;
+    margin-bottom: -25px;
+    display: inline;
+}
+
+.images .in {
+    width: 55px;
+    height: 55px;
+    margin-bottom: -36px;
+}
+
+.images .tw {
+    width: 43px;
+}
+
+input {
+    width: 500px;
+    height: 42px;
+    display: flex;
+    margin-left: 27px;
+    margin-bottom: -20px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    padding-left: 40px;
+    font-size: large;
+}
+
+.name {
+    background-image: url(icon.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left center;
+
+}
+
+.email {
+    background-image: url(icon2.jpg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left center;  
+}
+
+.phone {
+    background-image: url(icon3.jpg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left center;
+}
+
+.password {
+    background-image: url(icon4.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: left center;
+}
+
+.re-password {
+    background-image: url(icon4.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: left center;
+}
+
+.last-p {
+    margin-left: 30px;
+}
+
+.bottom-box {
+    background-color: rgb(51, 93, 128);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 10px;
+    padding-left: 20px;
+    height: 50px;
+}
+.bottom-box button{
+    margin-top: 5px;
+    margin-left: 16px;
+    width: 530px;
+    height: 40px;
+    background-color: rgb(106, 200, 255); 
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+</style>
+</head>
+<body>
+    
+    <div class="box">
+        <div class="top-box">
+            <h1>Register</h1>
+        </div>
+        <p class="top-p">Already member? <span>Sign in</span></p>
+        <div class="images">
+            <img src="facebook.png" alt="facebook">
+            <img src="twitter.png" alt="twitter" class="tw">
+            <img src="g.png" alt="github">
+            <img src="linkedin.png" alt="linkedin" class="in">
+        </div>
+        <br>
+        <input type="text" placeholder="username" class="name"> 
+        <br>
+        <input type="email" placeholder="email" class="email">
+        <br>
+        <input type="text" placeholder="phone" class="phone">
+        <br>
+        <input type="password" placeholder="password" class="password">
+        <br>
+        <input type="password" placeholder="repeat password" class="re-password">
+        <br>
+        
+        <p class="last-p">By clicking register you agree to our <span> terms of service</span> </p>
+        <div class="bottom-box">
+
+            <button>REGISTER</button>
+        </div>
+        </div>
+</body>
+</html>
